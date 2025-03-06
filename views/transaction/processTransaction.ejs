@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Transaction</title>
+</head>
+<body>
+    <h1>Process Transaction</h1>
+    <form action="/transaction/processTransaction" method="POST">
+        <label for="transactionId">Transaction ID:</label>
+        <input type="text" id="transactionId" name="transactionId" required>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+        <label for="method">Method:</label>
+        <input type="text" id="method" name="method" required>
+        <button type="submit">Process</button>
+    </form>
+</body>
+</html>
